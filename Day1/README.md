@@ -6,6 +6,7 @@
     <p><strong>Answer one = 1019571</strong></p>
     <p>137 + 552 + 1331 = 2020</p>
     <p><strong>Answer two = 100655544</strong></p>
+    
     <h1><br>My Code:<br></h1>
     <h2>Answer One:</h2>
     <code>public static int answerOne(int[] expenses) {</code>
@@ -13,7 +14,7 @@
     <code>  Arrays.sort(nums);</code>
     <code>  int n1 = 0;</code>
     <code>  int n2 = nums.length-1;</code>
-    <code>  while(true) {<code>
+    <code>  while(true) {</code>
     <code>    int sum = nums[n1] + nums[n2]; </code>
     <code>    if(sum > 2020){</code>
     <code>      n2--;</code>
