@@ -6,11 +6,6 @@
     <p><strong>Answer one = 1019571</strong></p>
     <p>137 + 552 + 1331 = 2020</p>
     <p><strong>Answer two = 100655544</strong></p>
-    
-    <h1><br>My Code:<br></h1>
-    <h2>Answer One:</h2>
-
-    <p><br><em><b>Day1 Challenge:<b></em></p>
   </div>  
   
 <article class="day-desc"><h2>--- Day 1: Report Repair ---</h2><p>After saving Christmas <a href="/events">five years in a row</a>, you've decided to take a vacation at a nice resort on a tropical island. <span title="WHAT COULD GO WRONG">Surely</span>, Christmas will go on without you.</p>
