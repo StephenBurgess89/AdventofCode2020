@@ -2,15 +2,15 @@
   
 Challenge:  
 
-<body>
+<body style="background-color:darkblue;">
 <main>
   <div>
-    <h1>My Output:</h1>
-    <p1>987 + 1033 = 2020
-        Answer one = 1019571</p1>
-    <p>137 + 552 + 1331 = 2020
-        Answer two = 100655544</p>
- </div>  
+    <h1>My Output:<br></h1>
+    <p>987 + 1033 = 2020</p>
+    <p><strong>Answer one = 1019571</p>
+    <p>137 + 552 + 1331 = 2020</p>
+    <p><strong>Answer two = 100655544</p>
+  </div>  
   
 <article class="day-desc"><h2>--- Day 1: Report Repair ---</h2><p>After saving Christmas <a href="/events">five years in a row</a>, you've decided to take a vacation at a nice resort on a tropical island. <span title="WHAT COULD GO WRONG">Surely</span>, Christmas will go on without you.</p>
 <p>The tropical island has its own currency and is entirely cash-only.  The gold coins used there have a little picture of a starfish; the locals just call them <em class="star">stars</em>. None of the currency exchanges seem to have heard of them, but somehow, you'll need to find fifty of these coins by the time you arrive so you can pay the deposit on your room.</p>
