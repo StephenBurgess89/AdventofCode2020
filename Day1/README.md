@@ -9,25 +9,27 @@
     
     <h1><br>My Code:<br></h1>
     <h2>Answer One:</h2>
-    <code>public static int answerOne(int[] expenses) {</code>
-    <code>  int[] nums = expenses.clone();</code>
-    <code>  Arrays.sort(nums);</code>
-    <code>  int n1 = 0;</code>
-    <code>  int n2 = nums.length-1;</code>
-    <code>  while(true) {</code>
-    <code>    int sum = nums[n1] + nums[n2]; </code>
-    <code>    if(sum > 2020){</code>
-    <code>      n2--;</code>
-    <code>    }</code>
-    <code>    else if (sum < 2020) {</code>
-    <code>      n1++;</code>
-    <code>    }</code>
-    <code>    else {</code>
-    <code>      System.out.println(nums[n1]+" + "+nums[n2]+" = "+sum);</code>
-    <code>      return nums[n1]*nums[n2];</code>
-    <code>    }</code>
-    <code>  }</code>
-    <code> }</code>
+    <code>
+    public static int answerOne(int[] expenses) {
+      int[] nums = expenses.clone();
+      Arrays.sort(nums);
+      int n1 = 0;
+      int n2 = nums.length-1;
+      while(true) {
+        int sum = nums[n1] + nums[n2]; 
+        if(sum > 2020){
+          n2--;
+        }
+        else if (sum < 2020) {
+          n1++;
+        }
+        else {
+          System.out.println(nums[n1]+" + "+nums[n2]+" = "+sum);
+          return nums[n1]*nums[n2];
+        }
+      }
+     }
+     </code>
       
     <h2><br>Answer Two:</h2>  
     <code>public static int answerTwo(int[] expenses) {</code>
