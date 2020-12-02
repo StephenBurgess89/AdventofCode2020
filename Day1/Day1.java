@@ -1,7 +1,7 @@
 import java.util.*;
 import java.io.*;
 
-class Main {
+class Day1 {
 
   public static void main(String args[]) throws FileNotFoundException { 
   
