@@ -10,8 +10,6 @@ class Day8 {
     System.out.println("Answer One = "+answerOne(bootCode));
 
     System.out.println("\nAnswer Two = "+answerTwo(bootCode));
-
-
   }
 
 
